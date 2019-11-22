@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.baobao.dao.ILocationDao">
+    <!-- 一对多查询   -->
+    <!--配置表中字段和bean属性的映射关系 id:自定义配置，后面可使用；type：bean的全类名-->
+    <resultMap id="locationDepartmentsMap" type="com.baobao.domain.Location">
+        <!--id:配置主键与bean属性对应关系；result:配置主键外其他表字段与bean属性对应关系-->
+        <id column="location_id" property="id"/>
+        <result column="street_address" property="streetAddress"/>
+        <result column="postal_code" property="postalCode"/>
+        <result column="city" property="city"/>
+        <result column="state_province" property="stateProvince"/>
+        <result column="country_id" property="country"/>
+        <!--collection是用于建立一对多中集合属性的对应关系
+        property:嵌套集合在原始bean中的属性名称  ofType:嵌套集合元素bean的全类名-->
+        <collection property="departments" ofType="com.baobao.domain.Department">
+            <id column="department_id" property="id"/>
+            <result column="department_name" property="name"/>
+            <result column="manager_id" property="managerId"/>
+            <result column="location_id" property="locationId"/>
+        </collection>
+    </resultMap>
+
+    <select id="selectAllWithDepartments" resultMap="locationDepartmentsMap">
+        SELECT l.*,d.department_id,d.department_name,d.manager_id FROM locations l LEFT OUTER JOIN departments d ON d.location_id = l.location_id
+    </select>
+
+    <resultMap id="locationMap" type="com.baobao.domain.Location">
+        <id column="location_id" property="id"/>
+        <result column="street_address" property="streetAddress"/>
+        <result column="postal_code" property="postalCode"/>
+        <result column="city" property="city"/>
+        <result column="state_province" property="stateProvince"/>
+        <result column="country_id" property="country"/>
+    </resultMap>
+    <select id="selectById" parameterType="int" resultMap="locationMap">
+        select * from locations where location_id = #{id}
+    </select>
+</mapper>

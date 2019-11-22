@@ -1,0 +1,1060 @@
+2019-11-18 21:33:46,835 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-18 21:33:46,945 110    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 21:33:46,945 110    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 21:33:46,946 111    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 21:33:46,946 111    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 21:33:47,027 192    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-18 21:33:47,365 530    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 384515747.
+2019-11-18 21:33:47,366 531    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@16eb3ea3]
+2019-11-18 21:33:47,369 534    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - ==>  Preparing: select * from departments 
+2019-11-18 21:33:47,405 570    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - ==> Parameters: 
+2019-11-18 21:35:22,724 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-18 21:35:22,856 132    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 21:35:22,856 132    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 21:35:22,856 132    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 21:35:22,856 132    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 21:35:34,808 12084  [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-18 21:35:35,651 12927  [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1072377306.
+2019-11-18 21:35:35,651 12927  [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3feb2dda]
+2019-11-18 21:35:35,659 12935  [           main] DEBUG o.dao.IDepartmentDao.selectAll  - ==>  Preparing: select * from departments 
+2019-11-18 21:35:36,010 13286  [           main] DEBUG o.dao.IDepartmentDao.selectAll  - ==> Parameters: 
+2019-11-18 21:36:59,668 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-18 21:36:59,756 88     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 21:36:59,756 88     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 21:36:59,756 88     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 21:36:59,756 88     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 21:36:59,827 159    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-18 21:37:00,011 343    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1428475041.
+2019-11-18 21:37:00,011 343    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5524cca1]
+2019-11-18 21:37:00,013 345    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - ==>  Preparing: select * from departments 
+2019-11-18 21:37:00,038 370    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - ==> Parameters: 
+2019-11-18 21:44:24,372 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-18 21:44:24,451 79     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 21:44:24,451 79     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 21:44:24,451 79     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 21:44:24,452 80     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 21:44:24,525 153    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-18 21:44:24,723 351    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 661119548.
+2019-11-18 21:44:24,723 351    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2767e23c]
+2019-11-18 21:44:24,725 353    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - ==>  Preparing: select * from departments 
+2019-11-18 21:44:24,756 384    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - ==> Parameters: 
+2019-11-18 21:46:26,515 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-18 21:46:26,608 93     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 21:46:26,608 93     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 21:46:26,608 93     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 21:46:26,608 93     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 21:46:26,676 161    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-18 21:46:26,839 324    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 216856121.
+2019-11-18 21:46:26,839 324    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@cecf639]
+2019-11-18 21:46:26,841 326    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - ==>  Preparing: select * from departments 
+2019-11-18 21:46:26,865 350    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - ==> Parameters: 
+2019-11-18 21:47:31,254 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-18 21:47:31,339 85     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 21:47:31,339 85     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 21:47:31,339 85     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 21:47:31,339 85     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 21:47:31,408 154    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-18 21:47:31,605 351    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1896622931.
+2019-11-18 21:47:31,605 351    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@710c2b53]
+2019-11-18 21:47:31,607 353    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - ==>  Preparing: select * from departments 
+2019-11-18 21:47:31,643 389    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - ==> Parameters: 
+2019-11-18 21:50:31,292 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-18 21:50:31,384 92     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 21:50:31,384 92     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 21:50:31,384 92     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 21:50:31,384 92     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 21:50:31,455 163    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-18 21:50:31,641 349    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 216856121.
+2019-11-18 21:50:31,642 350    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@cecf639]
+2019-11-18 21:50:31,644 352    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - ==>  Preparing: select * from departments 
+2019-11-18 21:50:31,675 383    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - ==> Parameters: 
+2019-11-18 21:50:31,711 419    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - <==      Total: 27
+2019-11-18 21:50:31,713 421    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@cecf639]
+2019-11-18 21:50:31,713 421    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@cecf639]
+2019-11-18 21:50:31,714 422    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 216856121 to pool.
+2019-11-18 21:51:10,298 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-18 21:51:10,386 88     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 21:51:10,386 88     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 21:51:10,386 88     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 21:51:10,386 88     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 21:51:10,458 160    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-18 21:51:10,658 360    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 661119548.
+2019-11-18 21:51:10,659 361    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2767e23c]
+2019-11-18 21:51:10,660 362    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - ==>  Preparing: select * from departments 
+2019-11-18 21:51:10,687 389    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - ==> Parameters: 
+2019-11-18 21:51:10,727 429    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - <==      Total: 27
+2019-11-18 21:51:10,729 431    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2767e23c]
+2019-11-18 21:51:10,730 432    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2767e23c]
+2019-11-18 21:51:10,730 432    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 661119548 to pool.
+2019-11-18 21:52:18,935 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-18 21:52:19,034 99     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 21:52:19,035 100    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 21:52:19,035 100    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 21:52:19,035 100    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 21:52:19,108 173    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-18 21:52:19,287 352    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1896622931.
+2019-11-18 21:52:19,287 352    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@710c2b53]
+2019-11-18 21:52:19,289 354    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - ==>  Preparing: select * from departments 
+2019-11-18 21:52:19,316 381    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - ==> Parameters: 
+2019-11-18 21:52:19,347 412    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - <==      Total: 27
+2019-11-18 21:52:19,349 414    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@710c2b53]
+2019-11-18 21:52:19,350 415    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@710c2b53]
+2019-11-18 21:52:19,350 415    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1896622931 to pool.
+2019-11-18 22:02:43,346 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-18 22:02:43,438 92     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:02:43,438 92     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:02:43,438 92     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:02:43,438 92     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:02:43,521 175    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-18 22:02:43,720 374    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1158676965.
+2019-11-18 22:02:43,721 375    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@451001e5]
+2019-11-18 22:02:43,722 376    [           main] DEBUG .dao.IDepartmentDao.selectById  - ==>  Preparing: select * from departments where department_id = ? 
+2019-11-18 22:02:43,751 405    [           main] DEBUG .dao.IDepartmentDao.selectById  - ==> Parameters: 120(Integer)
+2019-11-18 22:02:43,773 427    [           main] DEBUG .dao.IDepartmentDao.selectById  - <==      Total: 1
+2019-11-18 22:02:43,775 429    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@451001e5]
+2019-11-18 22:02:43,775 429    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@451001e5]
+2019-11-18 22:02:43,775 429    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1158676965 to pool.
+2019-11-18 22:03:30,740 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-18 22:03:30,825 85     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:03:30,825 85     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:03:30,825 85     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:03:30,825 85     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:03:30,906 166    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-18 22:03:31,096 356    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1293680734.
+2019-11-18 22:03:31,097 357    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d1c005e]
+2019-11-18 22:03:31,099 359    [           main] DEBUG .dao.IDepartmentDao.selectById  - ==>  Preparing: select * from departments where department_id = ? 
+2019-11-18 22:03:31,134 394    [           main] DEBUG .dao.IDepartmentDao.selectById  - ==> Parameters: 120(Integer)
+2019-11-18 22:03:31,161 421    [           main] DEBUG .dao.IDepartmentDao.selectById  - <==      Total: 1
+2019-11-18 22:03:31,162 422    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d1c005e]
+2019-11-18 22:03:31,162 422    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d1c005e]
+2019-11-18 22:03:31,163 423    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1293680734 to pool.
+2019-11-18 22:04:06,433 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-18 22:04:06,540 107    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:04:06,541 108    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:04:06,541 108    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:04:06,541 108    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:04:06,619 186    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-18 22:04:06,817 384    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1158676965.
+2019-11-18 22:04:06,818 385    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@451001e5]
+2019-11-18 22:04:06,820 387    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - ==>  Preparing: select * from departments 
+2019-11-18 22:04:06,841 408    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - ==> Parameters: 
+2019-11-18 22:04:06,871 438    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - <==      Total: 27
+2019-11-18 22:04:06,873 440    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@451001e5]
+2019-11-18 22:04:06,873 440    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@451001e5]
+2019-11-18 22:04:06,873 440    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1158676965 to pool.
+2019-11-18 22:11:55,972 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-18 22:11:56,049 77     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:11:56,049 77     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:11:56,049 77     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:11:56,050 78     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:11:56,127 155    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-18 22:11:56,363 391    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 646910062.
+2019-11-18 22:11:56,364 392    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@268f106e]
+2019-11-18 22:11:56,366 394    [           main] DEBUG o.dao.IDepartmentDao.insertOne  - ==>  Preparing: insert into departments values (?,?,?,?) 
+2019-11-18 22:11:56,398 426    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Rolling back JDBC Connection [com.mysql.jdbc.JDBC4Connection@268f106e]
+2019-11-18 22:11:56,399 427    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@268f106e]
+2019-11-18 22:11:56,399 427    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@268f106e]
+2019-11-18 22:11:56,399 427    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 646910062 to pool.
+2019-11-18 22:13:46,367 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-18 22:13:46,463 96     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:13:46,463 96     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:13:46,463 96     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:13:46,463 96     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:13:46,553 186    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-18 22:13:46,742 375    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1485891705.
+2019-11-18 22:13:46,743 376    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5890e879]
+2019-11-18 22:13:46,745 378    [           main] DEBUG o.dao.IDepartmentDao.insertOne  - ==>  Preparing: insert into departments values (?,?,?,?) 
+2019-11-18 22:13:46,769 402    [           main] DEBUG o.dao.IDepartmentDao.insertOne  - ==> Parameters: 300(Integer), baobao(String), null, 1700(Integer)
+2019-11-18 22:13:46,777 410    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Rolling back JDBC Connection [com.mysql.jdbc.JDBC4Connection@5890e879]
+2019-11-18 22:13:46,777 410    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5890e879]
+2019-11-18 22:13:46,777 410    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@5890e879]
+2019-11-18 22:13:46,778 411    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1485891705 to pool.
+2019-11-18 22:14:06,954 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-18 22:14:07,058 104    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:14:07,058 104    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:14:07,058 104    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:14:07,059 105    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:14:07,137 183    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-18 22:14:07,335 381    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 646910062.
+2019-11-18 22:14:07,335 381    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@268f106e]
+2019-11-18 22:14:07,337 383    [           main] DEBUG o.dao.IDepartmentDao.insertOne  - ==>  Preparing: insert into departments values (?,?,?,?) 
+2019-11-18 22:14:07,363 409    [           main] DEBUG o.dao.IDepartmentDao.insertOne  - ==> Parameters: 300(Integer), baobao(String), 205(Integer), 1700(Integer)
+2019-11-18 22:14:07,372 418    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Rolling back JDBC Connection [com.mysql.jdbc.JDBC4Connection@268f106e]
+2019-11-18 22:14:07,373 419    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@268f106e]
+2019-11-18 22:14:07,373 419    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@268f106e]
+2019-11-18 22:14:07,373 419    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 646910062 to pool.
+2019-11-18 22:15:02,680 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-18 22:15:02,777 97     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:15:02,777 97     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:15:02,777 97     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:15:02,777 97     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:15:02,855 175    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-18 22:15:03,044 364    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1855610584.
+2019-11-18 22:15:03,044 364    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e9a5ed8]
+2019-11-18 22:15:03,046 366    [           main] DEBUG o.dao.IDepartmentDao.insertOne  - ==>  Preparing: insert into departments values (?,?,?,?) 
+2019-11-18 22:15:03,080 400    [           main] DEBUG o.dao.IDepartmentDao.insertOne  - ==> Parameters: 300(Integer), bao(String), 205(Integer), 1700(Integer)
+2019-11-18 22:15:03,082 402    [           main] DEBUG o.dao.IDepartmentDao.insertOne  - <==    Updates: 1
+2019-11-18 22:15:03,083 403    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Rolling back JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e9a5ed8]
+2019-11-18 22:15:03,084 404    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e9a5ed8]
+2019-11-18 22:15:03,084 404    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e9a5ed8]
+2019-11-18 22:15:03,084 404    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1855610584 to pool.
+2019-11-18 22:16:04,798 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-18 22:16:04,889 91     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:16:04,889 91     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:16:04,890 92     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:16:04,890 92     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:16:04,974 176    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-18 22:16:05,169 371    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1485891705.
+2019-11-18 22:16:05,171 373    [           main] DEBUG o.dao.IDepartmentDao.insertOne  - ==>  Preparing: insert into departments values (?,?,?,?) 
+2019-11-18 22:16:05,204 406    [           main] DEBUG o.dao.IDepartmentDao.insertOne  - ==> Parameters: 300(Integer), bao(String), 205(Integer), 1700(Integer)
+2019-11-18 22:16:05,206 408    [           main] DEBUG o.dao.IDepartmentDao.insertOne  - <==    Updates: 1
+2019-11-18 22:16:05,206 408    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@5890e879]
+2019-11-18 22:16:05,206 408    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1485891705 to pool.
+2019-11-18 22:16:49,291 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-18 22:16:49,372 81     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:16:49,373 82     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:16:49,373 82     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:16:49,373 82     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:16:49,449 158    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-18 22:16:49,629 338    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1485891705.
+2019-11-18 22:16:49,631 340    [           main] DEBUG o.dao.IDepartmentDao.insertOne  - ==>  Preparing: insert into departments values (?,?,?,?) 
+2019-11-18 22:16:49,656 365    [           main] DEBUG o.dao.IDepartmentDao.insertOne  - ==> Parameters: 300(Integer), bao(String), 205(Integer), 1(Integer)
+2019-11-18 22:16:49,659 368    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@5890e879]
+2019-11-18 22:16:49,659 368    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1485891705 to pool.
+2019-11-18 22:17:14,429 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-18 22:17:14,513 84     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:17:14,513 84     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:17:14,513 84     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:17:14,513 84     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:17:14,585 156    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-18 22:17:14,752 323    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 646910062.
+2019-11-18 22:17:14,754 325    [           main] DEBUG o.dao.IDepartmentDao.insertOne  - ==>  Preparing: insert into departments values (?,?,?,?) 
+2019-11-18 22:17:14,789 360    [           main] DEBUG o.dao.IDepartmentDao.insertOne  - ==> Parameters: 301(Integer), bao(String), 205(Integer), 1(Integer)
+2019-11-18 22:17:14,793 364    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@268f106e]
+2019-11-18 22:17:14,793 364    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 646910062 to pool.
+2019-11-18 22:27:43,852 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-18 22:27:43,933 81     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:27:43,933 81     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:27:43,933 81     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:27:43,933 81     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:27:44,011 159    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-18 22:27:44,187 335    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1855610584.
+2019-11-18 22:27:44,189 337    [           main] DEBUG obao.dao.IDepartmentDao.update  - ==>  Preparing: update departments set department_name = ?,manager_id = ?,location_id = ? where department_id = ? 
+2019-11-18 22:27:44,222 370    [           main] DEBUG obao.dao.IDepartmentDao.update  - ==> Parameters: ba(String), 200(Integer), 1700(Integer), 300(Integer)
+2019-11-18 22:27:44,228 376    [           main] DEBUG obao.dao.IDepartmentDao.update  - <==    Updates: 1
+2019-11-18 22:27:44,229 377    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e9a5ed8]
+2019-11-18 22:27:44,229 377    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1855610584 to pool.
+2019-11-18 22:30:03,897 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-18 22:30:03,991 94     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:30:03,991 94     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:30:03,992 95     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:30:03,992 95     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:30:04,067 170    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-18 22:30:04,260 363    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 837457281.
+2019-11-18 22:30:04,261 364    [           main] DEBUG obao.dao.IDepartmentDao.delete  - ==>  Preparing: delete from departments where department_id = ? 
+2019-11-18 22:30:04,287 390    [           main] DEBUG obao.dao.IDepartmentDao.delete  - ==> Parameters: 300(Integer)
+2019-11-18 22:30:04,288 391    [           main] DEBUG obao.dao.IDepartmentDao.delete  - <==    Updates: 1
+2019-11-18 22:30:04,289 392    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@31ea9581]
+2019-11-18 22:30:04,289 392    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 837457281 to pool.
+2019-11-18 22:38:48,594 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-18 22:38:48,675 81     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:38:48,675 81     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:38:48,676 82     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:38:48,676 82     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:38:48,750 156    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-18 22:38:48,933 339    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1293680734.
+2019-11-18 22:38:48,934 340    [           main] DEBUG ao.IDepartmentDao.selectByName  - ==>  Preparing: select * from departments where department_name like ? 
+2019-11-18 22:38:48,969 375    [           main] DEBUG ao.IDepartmentDao.selectByName  - ==> Parameters: %A(String)
+2019-11-18 22:38:49,000 406    [           main] DEBUG ao.IDepartmentDao.selectByName  - <==      Total: 1
+2019-11-18 22:38:49,001 407    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d1c005e]
+2019-11-18 22:38:49,001 407    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1293680734 to pool.
+2019-11-18 22:39:09,144 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-18 22:39:09,243 99     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:39:09,244 100    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:39:09,244 100    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:39:09,244 100    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:39:09,338 194    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-18 22:39:09,522 378    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1894601438.
+2019-11-18 22:39:09,524 380    [           main] DEBUG ao.IDepartmentDao.selectByName  - ==>  Preparing: select * from departments where department_name like ? 
+2019-11-18 22:39:09,554 410    [           main] DEBUG ao.IDepartmentDao.selectByName  - ==> Parameters: A%(String)
+2019-11-18 22:39:09,575 431    [           main] DEBUG ao.IDepartmentDao.selectByName  - <==      Total: 2
+2019-11-18 22:39:09,579 435    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@70ed52de]
+2019-11-18 22:39:09,579 435    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1894601438 to pool.
+2019-11-18 22:41:39,770 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-18 22:41:39,875 105    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:41:39,875 105    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:41:39,876 106    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:41:39,876 106    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:41:39,960 190    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-18 22:41:40,146 376    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 609656250.
+2019-11-18 22:41:40,148 378    [           main] DEBUG DepartmentDao.selectTotalCount  - ==>  Preparing: select count (1) from departments 
+2019-11-18 22:41:40,180 410    [           main] DEBUG DepartmentDao.selectTotalCount  - ==> Parameters: 
+2019-11-18 22:41:40,186 416    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@24569dba]
+2019-11-18 22:41:40,186 416    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 609656250 to pool.
+2019-11-18 22:42:30,969 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-18 22:42:31,057 88     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:42:31,057 88     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:42:31,058 89     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:42:31,058 89     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:42:31,139 170    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-18 22:42:31,330 361    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 725680028.
+2019-11-18 22:42:31,332 363    [           main] DEBUG DepartmentDao.selectTotalCount  - ==>  Preparing: select count(1) from departments 
+2019-11-18 22:42:31,358 389    [           main] DEBUG DepartmentDao.selectTotalCount  - ==> Parameters: 
+2019-11-18 22:42:31,383 414    [           main] DEBUG DepartmentDao.selectTotalCount  - <==      Total: 1
+2019-11-18 22:42:31,383 414    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2b40ff9c]
+2019-11-18 22:42:31,384 415    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 725680028 to pool.
+2019-11-18 23:43:20,530 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-18 23:43:20,612 82     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 23:43:20,612 82     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 23:43:20,612 82     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 23:43:20,612 82     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 23:45:44,847 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-18 23:45:44,943 96     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 23:45:44,943 96     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 23:45:44,943 96     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 23:45:44,943 96     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 23:48:14,527 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-18 23:48:14,609 82     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 23:48:14,609 82     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 23:48:14,609 82     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 23:48:14,609 82     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 23:48:14,683 156    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-18 23:48:14,864 337    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 725680028.
+2019-11-18 23:48:14,866 339    [           main] DEBUG DepartmentDao.selectTotalCount  - ==>  Preparing: select count(1) from departments 
+2019-11-18 23:48:14,890 363    [           main] DEBUG DepartmentDao.selectTotalCount  - ==> Parameters: 
+2019-11-18 23:48:14,911 384    [           main] DEBUG DepartmentDao.selectTotalCount  - <==      Total: 1
+2019-11-18 23:48:14,912 385    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2b40ff9c]
+2019-11-18 23:48:14,912 385    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 725680028 to pool.
+2019-11-19 00:01:39,494 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-19 00:01:39,570 76     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-19 00:01:39,570 76     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-19 00:01:39,570 76     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-19 00:01:39,570 76     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-19 00:01:39,643 149    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-19 00:01:39,816 322    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 609656250.
+2019-11-19 00:01:39,817 323    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - ==>  Preparing: select * from departments 
+2019-11-19 00:01:39,843 349    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - ==> Parameters: 
+2019-11-19 00:01:39,875 381    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - <==      Total: 27
+2019-11-19 00:01:39,876 382    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@24569dba]
+2019-11-19 00:01:39,876 382    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 609656250 to pool.
+2019-11-19 00:07:02,245 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-19 00:07:02,341 96     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-19 00:07:02,341 96     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-19 00:07:02,341 96     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-19 00:07:02,341 96     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-19 00:08:22,568 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-19 00:08:22,663 95     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-19 00:08:22,663 95     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-19 00:08:22,663 95     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-19 00:08:22,663 95     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-19 00:08:22,741 173    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-19 00:08:22,909 341    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1040776996.
+2019-11-19 00:08:22,911 343    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - ==>  Preparing: select * from departments 
+2019-11-19 00:08:22,941 373    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - ==> Parameters: 
+2019-11-19 00:08:22,976 408    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - <==      Total: 27
+2019-11-19 00:08:22,978 410    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@3e08ff24]
+2019-11-19 00:08:22,978 410    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1040776996 to pool.
+2019-11-19 00:09:20,600 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-19 00:09:20,682 82     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-19 00:09:20,682 82     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-19 00:09:20,682 82     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-19 00:09:20,682 82     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-19 00:09:20,759 159    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-19 00:09:20,973 373    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1040776996.
+2019-11-19 00:09:20,974 374    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - ==>  Preparing: select * from departments 
+2019-11-19 00:09:21,005 405    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - ==> Parameters: 
+2019-11-19 00:09:21,035 435    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - <==      Total: 27
+2019-11-19 00:09:21,037 437    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@3e08ff24]
+2019-11-19 00:09:21,037 437    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1040776996 to pool.
+2019-11-19 00:09:48,810 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-19 00:09:48,887 77     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-19 00:09:48,887 77     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-19 00:09:48,887 77     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-19 00:09:48,887 77     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-19 00:09:48,964 154    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-19 00:09:49,182 372    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1574877131.
+2019-11-19 00:09:49,184 374    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - ==>  Preparing: select * from departments 
+2019-11-19 00:09:49,217 407    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - ==> Parameters: 
+2019-11-19 00:09:49,247 437    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - <==      Total: 27
+2019-11-19 00:09:49,248 438    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@5ddeb7cb]
+2019-11-19 00:09:49,249 439    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1574877131 to pool.
+2019-11-19 00:18:48,336 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-19 00:18:48,430 94     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-19 00:18:48,430 94     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-19 00:18:48,430 94     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-19 00:18:48,430 94     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-19 00:18:48,516 180    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-19 00:18:48,716 380    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1894601438.
+2019-11-19 00:18:48,718 382    [           main] DEBUG tmentDao.selectAllWithLocation  - ==>  Preparing: SELECT d.department_id,d.department_name,d.manager_id,l.* FROM departments d LEFT OUTER JOIN locations l ON d.location_id = l.location_id 
+2019-11-19 00:18:48,749 413    [           main] DEBUG tmentDao.selectAllWithLocation  - ==> Parameters: 
+2019-11-19 00:18:48,791 455    [           main] DEBUG tmentDao.selectAllWithLocation  - <==      Total: 27
+2019-11-19 00:18:48,793 457    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@70ed52de]
+2019-11-19 00:18:48,793 457    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1894601438 to pool.
+2019-11-19 00:29:01,188 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-19 00:29:01,267 79     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-19 00:29:01,267 79     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-19 00:29:01,267 79     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-19 00:29:01,267 79     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-19 00:29:01,348 160    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-19 00:29:01,539 351    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1835073088.
+2019-11-19 00:29:01,541 353    [           main] DEBUG lectAllLocationWithDepartments  - ==>  Preparing: SELECT l.*,d.department_id,d.department_name,d.manager_id FROM locations l LEFT OUTER JOIN departments d ON d.location_id = l.location_id 
+2019-11-19 00:29:01,571 383    [           main] DEBUG lectAllLocationWithDepartments  - ==> Parameters: 
+2019-11-19 00:29:01,603 415    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6d60fe40]
+2019-11-19 00:29:01,603 415    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1835073088 to pool.
+2019-11-19 00:30:06,809 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-19 00:30:06,893 84     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-19 00:30:06,893 84     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-19 00:30:06,893 84     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-19 00:30:06,893 84     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-19 00:30:06,982 173    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-19 00:30:07,164 355    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 899543194.
+2019-11-19 00:30:07,166 357    [           main] DEBUG lectAllLocationWithDepartments  - ==>  Preparing: SELECT l.*,d.department_id,d.department_name,d.manager_id FROM locations l LEFT OUTER JOIN departments d ON d.location_id = l.location_id 
+2019-11-19 00:30:07,188 379    [           main] DEBUG lectAllLocationWithDepartments  - ==> Parameters: 
+2019-11-19 00:30:07,214 405    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@359df09a]
+2019-11-19 00:30:07,214 405    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 899543194 to pool.
+2019-11-19 00:35:29,764 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-19 00:35:29,844 80     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-19 00:35:29,844 80     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-19 00:35:29,844 80     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-19 00:35:29,844 80     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-19 00:35:29,928 164    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-19 00:35:30,101 337    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 899543194.
+2019-11-19 00:35:30,103 339    [           main] DEBUG lectAllLocationWithDepartments  - ==>  Preparing: SELECT l.*,d.department_id,d.department_name,d.manager_id FROM locations l LEFT OUTER JOIN departments d ON d.location_id = l.location_id 
+2019-11-19 00:35:30,133 369    [           main] DEBUG lectAllLocationWithDepartments  - ==> Parameters: 
+2019-11-19 00:35:30,172 408    [           main] DEBUG lectAllLocationWithDepartments  - <==      Total: 43
+2019-11-19 00:35:30,173 409    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@359df09a]
+2019-11-19 00:35:30,174 410    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 899543194 to pool.
+2019-11-20 22:52:40,079 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-20 22:52:40,216 137    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-20 22:52:40,217 138    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-20 22:52:40,217 138    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-20 22:52:40,217 138    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-20 22:52:40,339 260    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-20 22:52:40,605 526    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 899543194.
+2019-11-20 22:52:40,609 530    [           main] DEBUG tmentDao.selectAllWithLocation  - ==>  Preparing: SELECT d.department_id,d.department_name,d.manager_id,l.* FROM departments d LEFT OUTER JOIN locations l ON d.location_id = l.location_id 
+2019-11-20 22:52:40,654 575    [           main] DEBUG tmentDao.selectAllWithLocation  - ==> Parameters: 
+2019-11-20 22:52:40,689 610    [           main] DEBUG tmentDao.selectAllWithLocation  - <==      Total: 27
+2019-11-20 22:52:40,691 612    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@359df09a]
+2019-11-20 22:52:40,691 612    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 899543194 to pool.
+2019-11-20 23:19:03,482 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-20 23:19:03,580 98     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-20 23:19:03,580 98     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-20 23:19:03,580 98     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-20 23:19:03,580 98     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-20 23:19:03,673 191    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-20 23:19:03,842 360    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 808228639.
+2019-11-20 23:19:03,844 362    [           main] DEBUG onDao.selectAllWithDepartments  - ==>  Preparing: SELECT l.*,d.department_id,d.department_name,d.manager_id FROM locations l LEFT OUTER JOIN departments d ON d.location_id = l.location_id 
+2019-11-20 23:19:03,874 392    [           main] DEBUG onDao.selectAllWithDepartments  - ==> Parameters: 
+2019-11-20 23:19:03,921 439    [           main] DEBUG onDao.selectAllWithDepartments  - <==      Total: 43
+2019-11-20 23:19:03,922 440    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@302c971f]
+2019-11-20 23:19:03,923 441    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 808228639 to pool.
+2019-11-20 23:30:39,604 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-20 23:30:39,694 90     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-20 23:30:39,694 90     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-20 23:30:39,694 90     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-20 23:30:39,695 91     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-20 23:30:39,783 179    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-20 23:30:39,963 359    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1863374262.
+2019-11-20 23:30:39,965 361    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - ==>  Preparing: select * from departments 
+2019-11-20 23:30:39,995 391    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - ==> Parameters: 
+2019-11-20 23:30:40,026 422    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - <==      Total: 27
+2019-11-20 23:30:40,028 424    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6f10d5b6]
+2019-11-20 23:30:40,028 424    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1863374262 to pool.
+2019-11-20 23:31:20,291 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-20 23:31:20,397 106    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-20 23:31:20,397 106    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-20 23:31:20,397 106    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-20 23:31:20,397 106    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-20 23:31:20,487 196    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-20 23:31:20,667 376    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1863374262.
+2019-11-20 23:31:20,669 378    [           main] DEBUG tmentDao.selectAllWithLocation  - ==>  Preparing: SELECT d.department_id,d.department_name,d.manager_id,l.* FROM departments d LEFT OUTER JOIN locations l ON d.location_id = l.location_id 
+2019-11-20 23:31:20,695 404    [           main] DEBUG tmentDao.selectAllWithLocation  - ==> Parameters: 
+2019-11-20 23:31:20,736 445    [           main] DEBUG tmentDao.selectAllWithLocation  - <==      Total: 27
+2019-11-20 23:31:20,738 447    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6f10d5b6]
+2019-11-20 23:31:20,738 447    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1863374262 to pool.
+2019-11-20 23:32:10,018 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-20 23:32:10,127 109    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-20 23:32:10,128 110    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-20 23:32:10,128 110    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-20 23:32:10,128 110    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-20 23:32:10,230 212    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-20 23:32:10,401 383    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1863374262.
+2019-11-20 23:32:10,402 384    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - ==>  Preparing: select * from departments 
+2019-11-20 23:32:10,427 409    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - ==> Parameters: 
+2019-11-20 23:32:10,464 446    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - <==      Total: 27
+2019-11-20 23:32:10,466 448    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6f10d5b6]
+2019-11-20 23:32:10,466 448    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1863374262 to pool.
+2019-11-20 23:35:40,460 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-20 23:35:40,565 105    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-20 23:35:40,566 106    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-20 23:35:40,566 106    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-20 23:35:40,566 106    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-20 23:35:40,662 202    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-20 23:35:40,846 386    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1863374262.
+2019-11-20 23:35:40,848 388    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - ==>  Preparing: select * from departments 
+2019-11-20 23:35:40,876 416    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - ==> Parameters: 
+2019-11-20 23:35:40,935 475    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - <==      Total: 27
+2019-11-20 23:35:40,936 476    [           main] DEBUG ao.dao.ILocationDao.selectById  - ==>  Preparing: select * from locations where location_id = ? 
+2019-11-20 23:35:40,937 477    [           main] DEBUG ao.dao.ILocationDao.selectById  - ==> Parameters: 1700(Integer)
+2019-11-20 23:35:40,938 478    [           main] DEBUG ao.dao.ILocationDao.selectById  - <==      Total: 1
+2019-11-20 23:35:40,939 479    [           main] DEBUG ao.dao.ILocationDao.selectById  - ==>  Preparing: select * from locations where location_id = ? 
+2019-11-20 23:35:40,939 479    [           main] DEBUG ao.dao.ILocationDao.selectById  - ==> Parameters: 1800(Integer)
+2019-11-20 23:35:40,940 480    [           main] DEBUG ao.dao.ILocationDao.selectById  - <==      Total: 1
+2019-11-20 23:35:40,940 480    [           main] DEBUG ao.dao.ILocationDao.selectById  - ==>  Preparing: select * from locations where location_id = ? 
+2019-11-20 23:35:40,940 480    [           main] DEBUG ao.dao.ILocationDao.selectById  - ==> Parameters: 2400(Integer)
+2019-11-20 23:35:40,941 481    [           main] DEBUG ao.dao.ILocationDao.selectById  - <==      Total: 1
+2019-11-20 23:35:40,941 481    [           main] DEBUG ao.dao.ILocationDao.selectById  - ==>  Preparing: select * from locations where location_id = ? 
+2019-11-20 23:35:40,941 481    [           main] DEBUG ao.dao.ILocationDao.selectById  - ==> Parameters: 1500(Integer)
+2019-11-20 23:35:40,942 482    [           main] DEBUG ao.dao.ILocationDao.selectById  - <==      Total: 1
+2019-11-20 23:35:40,942 482    [           main] DEBUG ao.dao.ILocationDao.selectById  - ==>  Preparing: select * from locations where location_id = ? 
+2019-11-20 23:35:40,943 483    [           main] DEBUG ao.dao.ILocationDao.selectById  - ==> Parameters: 1400(Integer)
+2019-11-20 23:35:40,943 483    [           main] DEBUG ao.dao.ILocationDao.selectById  - <==      Total: 1
+2019-11-20 23:35:40,943 483    [           main] DEBUG ao.dao.ILocationDao.selectById  - ==>  Preparing: select * from locations where location_id = ? 
+2019-11-20 23:35:40,944 484    [           main] DEBUG ao.dao.ILocationDao.selectById  - ==> Parameters: 2700(Integer)
+2019-11-20 23:35:40,944 484    [           main] DEBUG ao.dao.ILocationDao.selectById  - <==      Total: 1
+2019-11-20 23:35:40,944 484    [           main] DEBUG ao.dao.ILocationDao.selectById  - ==>  Preparing: select * from locations where location_id = ? 
+2019-11-20 23:35:40,945 485    [           main] DEBUG ao.dao.ILocationDao.selectById  - ==> Parameters: 2500(Integer)
+2019-11-20 23:35:40,946 486    [           main] DEBUG ao.dao.ILocationDao.selectById  - <==      Total: 1
+2019-11-20 23:35:40,948 488    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6f10d5b6]
+2019-11-20 23:35:40,948 488    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1863374262 to pool.
+2019-11-20 23:38:03,043 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-20 23:38:03,136 93     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-20 23:38:03,136 93     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-20 23:38:03,136 93     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-20 23:38:03,136 93     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-20 23:38:03,223 180    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-20 23:38:03,397 354    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1863374262.
+2019-11-20 23:38:03,399 356    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - ==>  Preparing: select * from departments 
+2019-11-20 23:38:03,428 385    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - ==> Parameters: 
+2019-11-20 23:38:03,493 450    [           main] DEBUG o.dao.IDepartmentDao.selectAll  - <==      Total: 27
+2019-11-20 23:38:03,494 451    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6f10d5b6]
+2019-11-20 23:38:03,494 451    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1863374262 to pool.
+2019-11-20 23:41:14,059 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-20 23:41:14,143 84     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-20 23:41:14,143 84     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-20 23:41:14,143 84     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-20 23:41:14,143 84     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-20 23:41:14,238 179    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-20 23:41:14,431 372    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1863374262.
+2019-11-20 23:41:14,433 374    [           main] DEBUG tDao.selectAllWithLocationLazy  - ==>  Preparing: select * from departments 
+2019-11-20 23:41:14,463 404    [           main] DEBUG tDao.selectAllWithLocationLazy  - ==> Parameters: 
+2019-11-20 23:41:14,523 464    [           main] DEBUG tDao.selectAllWithLocationLazy  - <==      Total: 27
+2019-11-20 23:41:14,524 465    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6f10d5b6]
+2019-11-20 23:41:14,524 465    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1863374262 to pool.
+2019-11-21 00:15:58,437 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-21 00:15:58,525 88     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:15:58,525 88     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:15:58,525 88     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:15:58,525 88     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:15:58,627 190    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-21 00:15:58,796 359    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1848125895.
+2019-11-21 00:15:58,798 361    [           main] DEBUG artmentDaoAnnotation.selectAll  - ==>  Preparing: select * from departments 
+2019-11-21 00:15:58,832 395    [           main] DEBUG artmentDaoAnnotation.selectAll  - ==> Parameters: 
+2019-11-21 00:15:58,860 423    [           main] DEBUG artmentDaoAnnotation.selectAll  - <==      Total: 27
+2019-11-21 00:15:58,861 424    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e2829c7]
+2019-11-21 00:15:58,862 425    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1848125895 to pool.
+2019-11-21 00:16:22,660 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-21 00:16:22,765 105    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:16:22,765 105    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:16:22,765 105    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:16:22,765 105    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:16:22,882 222    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-21 00:16:23,046 386    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 821576394.
+2019-11-21 00:16:23,048 388    [           main] DEBUG rtmentDaoAnnotation.selectById  - ==>  Preparing: select * from departments where department_id = ? 
+2019-11-21 00:16:23,072 412    [           main] DEBUG rtmentDaoAnnotation.selectById  - ==> Parameters: 120(Integer)
+2019-11-21 00:16:23,091 431    [           main] DEBUG rtmentDaoAnnotation.selectById  - <==      Total: 1
+2019-11-21 00:16:23,092 432    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@30f842ca]
+2019-11-21 00:16:23,092 432    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 821576394 to pool.
+2019-11-21 00:17:30,307 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-21 00:17:30,414 107    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:17:30,414 107    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:17:30,414 107    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:17:30,414 107    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:17:30,541 234    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-21 00:17:30,727 420    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1758056825.
+2019-11-21 00:17:30,729 422    [           main] DEBUG artmentDaoAnnotation.insertOne  - ==>  Preparing: insert into departments (department_name,manager_id,location_id) values(?,?,?) 
+2019-11-21 00:17:30,756 449    [           main] DEBUG artmentDaoAnnotation.insertOne  - ==> Parameters: bao(String), 205(Integer), 1700(Integer)
+2019-11-21 00:17:30,764 457    [           main] DEBUG artmentDaoAnnotation.insertOne  - <==    Updates: 1
+2019-11-21 00:17:30,765 458    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@68c9d179]
+2019-11-21 00:17:30,765 458    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1758056825 to pool.
+2019-11-21 00:18:14,027 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-21 00:18:14,135 108    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:18:14,135 108    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:18:14,135 108    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:18:14,135 108    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:18:14,264 237    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-21 00:18:14,448 421    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1605851606.
+2019-11-21 00:18:14,450 423    [           main] DEBUG DepartmentDaoAnnotation.update  - ==>  Preparing: update departments set department_name = ?,manager_id = ? where department_id = ? 
+2019-11-21 00:18:14,482 455    [           main] DEBUG DepartmentDaoAnnotation.update  - ==> Parameters: ba(String), 200(Integer), 301(Integer)
+2019-11-21 00:18:14,485 458    [           main] DEBUG DepartmentDaoAnnotation.update  - <==    Updates: 1
+2019-11-21 00:18:14,486 459    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@5fb759d6]
+2019-11-21 00:18:14,486 459    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1605851606 to pool.
+2019-11-21 00:18:32,989 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-21 00:18:33,093 104    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:18:33,094 105    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:18:33,094 105    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:18:33,094 105    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:18:33,202 213    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-21 00:18:33,392 403    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 871160466.
+2019-11-21 00:18:33,394 405    [           main] DEBUG DepartmentDaoAnnotation.delete  - ==>  Preparing: delete from departments where department_id = ? 
+2019-11-21 00:18:33,420 431    [           main] DEBUG DepartmentDaoAnnotation.delete  - ==> Parameters: 301(Integer)
+2019-11-21 00:18:33,422 433    [           main] DEBUG DepartmentDaoAnnotation.delete  - <==    Updates: 1
+2019-11-21 00:18:33,422 433    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@33ecda92]
+2019-11-21 00:18:33,422 433    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 871160466 to pool.
+2019-11-21 00:18:44,325 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-21 00:18:44,411 86     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:18:44,411 86     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:18:44,411 86     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:18:44,411 86     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:18:44,528 203    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-21 00:18:44,694 369    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 231202600.
+2019-11-21 00:18:44,695 370    [           main] DEBUG mentDaoAnnotation.selectByName  - ==>  Preparing: select * from departments where department_name like ? 
+2019-11-21 00:18:44,718 393    [           main] DEBUG mentDaoAnnotation.selectByName  - ==> Parameters: A%(String)
+2019-11-21 00:18:44,741 416    [           main] DEBUG mentDaoAnnotation.selectByName  - <==      Total: 2
+2019-11-21 00:18:44,742 417    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@dc7df28]
+2019-11-21 00:18:44,742 417    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 231202600 to pool.
+2019-11-21 00:20:07,709 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-21 00:20:07,816 107    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:20:07,816 107    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:20:07,816 107    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:20:07,816 107    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:20:07,924 215    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-21 00:20:08,090 381    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 859654796.
+2019-11-21 00:20:08,092 383    [           main] DEBUG mentDaoAnnotation.selectByName  - ==>  Preparing: select * from departments where department_name like ? 
+2019-11-21 00:20:08,127 418    [           main] DEBUG mentDaoAnnotation.selectByName  - ==> Parameters: A%(String)
+2019-11-21 00:20:08,148 439    [           main] DEBUG mentDaoAnnotation.selectByName  - <==      Total: 2
+2019-11-21 00:20:08,149 440    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@333d4a8c]
+2019-11-21 00:20:08,149 440    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 859654796 to pool.
+2019-11-21 00:20:15,917 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-21 00:20:16,011 94     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:20:16,011 94     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:20:16,011 94     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:20:16,011 94     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:20:16,137 220    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-21 00:20:16,339 422    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 821576394.
+2019-11-21 00:20:16,341 424    [           main] DEBUG DaoAnnotation.selectTotalCount  - ==>  Preparing: select count(1) from departments 
+2019-11-21 00:20:16,365 448    [           main] DEBUG DaoAnnotation.selectTotalCount  - ==> Parameters: 
+2019-11-21 00:20:16,384 467    [           main] DEBUG DaoAnnotation.selectTotalCount  - <==      Total: 1
+2019-11-21 00:20:16,385 468    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@30f842ca]
+2019-11-21 00:20:16,386 469    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 821576394 to pool.
+2019-11-21 00:41:42,024 1      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-21 00:41:42,141 118    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:41:42,141 118    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:41:42,141 118    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:41:42,141 118    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:41:42,259 236    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-21 00:41:42,438 415    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1787189503.
+2019-11-21 00:41:42,439 416    [           main] DEBUG tion.selectAllWithLocationLazy  - ==>  Preparing: select * from departments 
+2019-11-21 00:41:42,466 443    [           main] DEBUG tion.selectAllWithLocationLazy  - ==> Parameters: 
+2019-11-21 00:41:42,529 506    [           main] DEBUG tion.selectAllWithLocationLazy  - <==      Total: 27
+2019-11-21 00:41:42,530 507    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6a8658ff]
+2019-11-21 00:41:42,530 507    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1787189503 to pool.
+2019-11-21 00:42:12,919 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-21 00:42:13,024 105    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:42:13,024 105    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:42:13,024 105    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:42:13,024 105    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:42:13,134 215    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-21 00:42:13,300 381    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1440621772.
+2019-11-21 00:42:13,301 382    [           main] DEBUG tion.selectAllWithLocationLazy  - ==>  Preparing: select * from departments 
+2019-11-21 00:42:13,329 410    [           main] DEBUG tion.selectAllWithLocationLazy  - ==> Parameters: 
+2019-11-21 00:42:13,381 462    [           main] DEBUG tion.selectAllWithLocationLazy  - <==      Total: 27
+2019-11-21 00:42:13,383 464    [           main] DEBUG cationDaoAnnotation.selectById  - ==>  Preparing: select * from locations where location_id = ? 
+2019-11-21 00:42:13,383 464    [           main] DEBUG cationDaoAnnotation.selectById  - ==> Parameters: 1700(Integer)
+2019-11-21 00:42:13,386 467    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@55de24cc]
+2019-11-21 00:42:13,386 467    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1440621772 to pool.
+2019-11-21 00:43:18,749 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-21 00:43:18,872 123    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:43:18,872 123    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:43:18,873 124    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:43:18,873 124    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:43:18,989 240    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-21 00:43:19,163 414    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1440621772.
+2019-11-21 00:43:19,165 416    [           main] DEBUG tion.selectAllWithLocationLazy  - ==>  Preparing: select * from departments 
+2019-11-21 00:43:19,189 440    [           main] DEBUG tion.selectAllWithLocationLazy  - ==> Parameters: 
+2019-11-21 00:43:19,251 502    [           main] DEBUG tion.selectAllWithLocationLazy  - <==      Total: 27
+2019-11-21 00:43:19,252 503    [           main] DEBUG cationDaoAnnotation.selectById  - ==>  Preparing: select * from locations where location_id = ? 
+2019-11-21 00:43:19,253 504    [           main] DEBUG cationDaoAnnotation.selectById  - ==> Parameters: 1700(Integer)
+2019-11-21 00:43:19,254 505    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@55de24cc]
+2019-11-21 00:43:19,254 505    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1440621772 to pool.
+2019-11-21 00:43:46,091 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-21 00:43:46,183 92     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:43:46,183 92     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:43:46,183 92     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:43:46,183 92     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 00:43:46,292 201    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-21 00:43:46,490 399    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1072377306.
+2019-11-21 00:43:46,492 401    [           main] DEBUG tion.selectAllWithLocationLazy  - ==>  Preparing: select * from departments 
+2019-11-21 00:43:46,519 428    [           main] DEBUG tion.selectAllWithLocationLazy  - ==> Parameters: 
+2019-11-21 00:43:46,575 484    [           main] DEBUG tion.selectAllWithLocationLazy  - <==      Total: 27
+2019-11-21 00:43:46,576 485    [           main] DEBUG cationDaoAnnotation.selectById  - ==>  Preparing: select * from locations where location_id = ? 
+2019-11-21 00:43:46,577 486    [           main] DEBUG cationDaoAnnotation.selectById  - ==> Parameters: 1700(Integer)
+2019-11-21 00:43:46,578 487    [           main] DEBUG cationDaoAnnotation.selectById  - <==      Total: 1
+2019-11-21 00:43:46,579 488    [           main] DEBUG cationDaoAnnotation.selectById  - ==>  Preparing: select * from locations where location_id = ? 
+2019-11-21 00:43:46,579 488    [           main] DEBUG cationDaoAnnotation.selectById  - ==> Parameters: 1800(Integer)
+2019-11-21 00:43:46,580 489    [           main] DEBUG cationDaoAnnotation.selectById  - <==      Total: 1
+2019-11-21 00:43:46,580 489    [           main] DEBUG cationDaoAnnotation.selectById  - ==>  Preparing: select * from locations where location_id = ? 
+2019-11-21 00:43:46,580 489    [           main] DEBUG cationDaoAnnotation.selectById  - ==> Parameters: 2400(Integer)
+2019-11-21 00:43:46,581 490    [           main] DEBUG cationDaoAnnotation.selectById  - <==      Total: 1
+2019-11-21 00:43:46,582 491    [           main] DEBUG cationDaoAnnotation.selectById  - ==>  Preparing: select * from locations where location_id = ? 
+2019-11-21 00:43:46,582 491    [           main] DEBUG cationDaoAnnotation.selectById  - ==> Parameters: 1500(Integer)
+2019-11-21 00:43:46,583 492    [           main] DEBUG cationDaoAnnotation.selectById  - <==      Total: 1
+2019-11-21 00:43:46,583 492    [           main] DEBUG cationDaoAnnotation.selectById  - ==>  Preparing: select * from locations where location_id = ? 
+2019-11-21 00:43:46,583 492    [           main] DEBUG cationDaoAnnotation.selectById  - ==> Parameters: 1400(Integer)
+2019-11-21 00:43:46,584 493    [           main] DEBUG cationDaoAnnotation.selectById  - <==      Total: 1
+2019-11-21 00:43:46,585 494    [           main] DEBUG cationDaoAnnotation.selectById  - ==>  Preparing: select * from locations where location_id = ? 
+2019-11-21 00:43:46,585 494    [           main] DEBUG cationDaoAnnotation.selectById  - ==> Parameters: 2700(Integer)
+2019-11-21 00:43:46,586 495    [           main] DEBUG cationDaoAnnotation.selectById  - <==      Total: 1
+2019-11-21 00:43:46,586 495    [           main] DEBUG cationDaoAnnotation.selectById  - ==>  Preparing: select * from locations where location_id = ? 
+2019-11-21 00:43:46,587 496    [           main] DEBUG cationDaoAnnotation.selectById  - ==> Parameters: 2500(Integer)
+2019-11-21 00:43:46,587 496    [           main] DEBUG cationDaoAnnotation.selectById  - <==      Total: 1
+2019-11-21 00:43:46,589 498    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@3feb2dda]
+2019-11-21 00:43:46,589 498    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1072377306 to pool.
+2019-11-21 22:14:36,990 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-21 22:14:37,103 113    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 22:14:37,103 113    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 22:14:37,103 113    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 22:14:37,103 113    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 22:14:37,237 247    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-21 22:14:37,520 530    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1649320501.
+2019-11-21 22:14:37,523 533    [           main] DEBUG onDao.selectAllWithDepartments  - ==>  Preparing: SELECT l.*,d.department_id,d.department_name,d.manager_id FROM locations l LEFT OUTER JOIN departments d ON d.location_id = l.location_id 
+2019-11-21 22:14:37,577 587    [           main] DEBUG onDao.selectAllWithDepartments  - ==> Parameters: 
+2019-11-21 22:14:37,611 621    [           main] DEBUG onDao.selectAllWithDepartments  - <==      Total: 43
+2019-11-21 22:14:37,612 622    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@624ea235]
+2019-11-21 22:14:37,612 622    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1649320501 to pool.
+2019-11-21 22:15:07,166 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-21 22:15:07,273 107    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 22:15:07,273 107    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 22:15:07,273 107    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 22:15:07,274 108    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 22:15:07,403 237    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-21 22:15:07,621 455    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1649320501.
+2019-11-21 22:15:07,624 458    [           main] DEBUG onDao.selectAllWithDepartments  - ==>  Preparing: SELECT l.*,d.department_id,d.department_name,d.manager_id FROM locations l LEFT OUTER JOIN departments d ON d.location_id = l.location_id 
+2019-11-21 22:15:07,666 500    [           main] DEBUG onDao.selectAllWithDepartments  - ==> Parameters: 
+2019-11-21 22:15:07,709 543    [           main] DEBUG onDao.selectAllWithDepartments  - <==      Total: 43
+2019-11-21 22:15:07,711 545    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@624ea235]
+2019-11-21 22:15:07,711 545    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1649320501 to pool.
+2019-11-21 22:16:13,084 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-21 22:16:13,200 116    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 22:16:13,200 116    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 22:16:13,200 116    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 22:16:13,200 116    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 22:16:13,322 238    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-21 22:16:13,498 414    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 2053996178.
+2019-11-21 22:16:13,500 416    [           main] DEBUG ation.selectAllWithDepartments  - ==>  Preparing: select * from locations 
+2019-11-21 22:16:13,530 446    [           main] DEBUG ation.selectAllWithDepartments  - ==> Parameters: 
+2019-11-21 22:16:13,597 513    [           main] DEBUG ation.selectAllWithDepartments  - <==      Total: 23
+2019-11-21 22:16:13,599 515    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:16:13,599 515    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:16:13,600 516    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 1000(Integer)
+2019-11-21 22:16:13,602 518    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:16:13,602 518    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:16:13,602 518    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:16:13,602 518    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 1100(Integer)
+2019-11-21 22:16:13,603 519    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:16:13,603 519    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:16:13,603 519    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:16:13,603 519    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 1200(Integer)
+2019-11-21 22:16:13,604 520    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:16:13,604 520    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:16:13,604 520    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:16:13,605 521    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 1300(Integer)
+2019-11-21 22:16:13,605 521    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:16:13,605 521    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:16:13,605 521    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:16:13,606 522    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 1400(Integer)
+2019-11-21 22:16:13,606 522    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 1
+2019-11-21 22:16:13,607 523    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:16:13,607 523    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:16:13,607 523    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 1500(Integer)
+2019-11-21 22:16:13,608 524    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 1
+2019-11-21 22:16:13,608 524    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:16:13,608 524    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:16:13,609 525    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 1600(Integer)
+2019-11-21 22:16:13,610 526    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:16:13,610 526    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:16:13,611 527    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:16:13,611 527    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 1700(Integer)
+2019-11-21 22:16:13,614 530    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 21
+2019-11-21 22:16:13,615 531    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:16:13,615 531    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:16:13,615 531    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 1800(Integer)
+2019-11-21 22:16:13,617 533    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 1
+2019-11-21 22:16:13,617 533    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:16:13,618 534    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:16:13,618 534    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 1900(Integer)
+2019-11-21 22:16:13,619 535    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:16:13,619 535    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:16:13,620 536    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:16:13,620 536    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 2000(Integer)
+2019-11-21 22:16:13,621 537    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:16:13,621 537    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:16:13,622 538    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:16:13,622 538    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 2100(Integer)
+2019-11-21 22:16:13,623 539    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:16:13,624 540    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:16:13,624 540    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:16:13,624 540    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 2200(Integer)
+2019-11-21 22:16:13,625 541    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:16:13,626 542    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:16:13,627 543    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:16:13,627 543    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 2300(Integer)
+2019-11-21 22:16:13,628 544    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:16:13,629 545    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:16:13,629 545    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:16:13,630 546    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 2400(Integer)
+2019-11-21 22:16:13,633 549    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 1
+2019-11-21 22:16:13,634 550    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:16:13,634 550    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:16:13,634 550    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 2500(Integer)
+2019-11-21 22:16:13,635 551    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 1
+2019-11-21 22:16:13,636 552    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:16:13,636 552    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:16:13,636 552    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 2600(Integer)
+2019-11-21 22:16:13,637 553    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:16:13,637 553    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:16:13,637 553    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:16:13,637 553    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 2700(Integer)
+2019-11-21 22:16:13,638 554    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 1
+2019-11-21 22:16:13,638 554    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:16:13,638 554    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:16:13,638 554    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 2800(Integer)
+2019-11-21 22:16:13,639 555    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:16:13,639 555    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:16:13,639 555    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:16:13,639 555    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 2900(Integer)
+2019-11-21 22:16:13,640 556    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:16:13,640 556    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:16:13,640 556    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:16:13,640 556    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 3000(Integer)
+2019-11-21 22:16:13,646 562    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:16:13,646 562    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:16:13,646 562    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:16:13,647 563    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 3100(Integer)
+2019-11-21 22:16:13,647 563    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:16:13,648 564    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:16:13,648 564    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:16:13,648 564    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 3200(Integer)
+2019-11-21 22:16:13,649 565    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:16:13,667 583    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@7a6d7e92]
+2019-11-21 22:16:13,668 584    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 2053996178 to pool.
+2019-11-21 22:17:05,368 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-21 22:17:05,479 111    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 22:17:05,479 111    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 22:17:05,480 112    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 22:17:05,480 112    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 22:17:05,621 253    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-21 22:17:05,802 434    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1263668904.
+2019-11-21 22:17:05,804 436    [           main] DEBUG ation.selectAllWithDepartments  - ==>  Preparing: select * from locations 
+2019-11-21 22:17:05,836 468    [           main] DEBUG ation.selectAllWithDepartments  - ==> Parameters: 
+2019-11-21 22:17:05,907 539    [           main] DEBUG ation.selectAllWithDepartments  - <==      Total: 23
+2019-11-21 22:17:05,910 542    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:05,910 542    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:05,911 543    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 1000(Integer)
+2019-11-21 22:17:05,911 543    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:17:05,912 544    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:05,912 544    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:05,912 544    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 1100(Integer)
+2019-11-21 22:17:05,913 545    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:17:05,915 547    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:05,915 547    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:05,915 547    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 1200(Integer)
+2019-11-21 22:17:05,916 548    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:17:05,917 549    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:05,917 549    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:05,917 549    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 1300(Integer)
+2019-11-21 22:17:05,918 550    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:17:05,918 550    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:05,918 550    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:05,918 550    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 1400(Integer)
+2019-11-21 22:17:05,919 551    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 1
+2019-11-21 22:17:05,920 552    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:05,920 552    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:05,920 552    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 1500(Integer)
+2019-11-21 22:17:05,921 553    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 1
+2019-11-21 22:17:05,921 553    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:05,921 553    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:05,922 554    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 1600(Integer)
+2019-11-21 22:17:05,923 555    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:17:05,924 556    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:05,924 556    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:05,924 556    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 1700(Integer)
+2019-11-21 22:17:05,928 560    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 21
+2019-11-21 22:17:05,929 561    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:05,929 561    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:05,929 561    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 1800(Integer)
+2019-11-21 22:17:05,930 562    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 1
+2019-11-21 22:17:05,931 563    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:05,931 563    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:05,931 563    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 1900(Integer)
+2019-11-21 22:17:05,932 564    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:17:05,932 564    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:05,933 565    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:05,933 565    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 2000(Integer)
+2019-11-21 22:17:05,934 566    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:17:05,940 572    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:05,940 572    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:05,941 573    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 2100(Integer)
+2019-11-21 22:17:05,942 574    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:17:05,942 574    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:05,942 574    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:05,943 575    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 2200(Integer)
+2019-11-21 22:17:05,943 575    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:17:05,944 576    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:05,944 576    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:05,945 577    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 2300(Integer)
+2019-11-21 22:17:05,946 578    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:17:05,946 578    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:05,946 578    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:05,947 579    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 2400(Integer)
+2019-11-21 22:17:05,949 581    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 1
+2019-11-21 22:17:05,950 582    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:05,950 582    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:05,950 582    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 2500(Integer)
+2019-11-21 22:17:05,951 583    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 1
+2019-11-21 22:17:05,953 585    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:05,953 585    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:05,953 585    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 2600(Integer)
+2019-11-21 22:17:05,954 586    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:17:05,954 586    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:05,954 586    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:05,954 586    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 2700(Integer)
+2019-11-21 22:17:05,955 587    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 1
+2019-11-21 22:17:05,956 588    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:05,956 588    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:05,956 588    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 2800(Integer)
+2019-11-21 22:17:05,957 589    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:17:05,957 589    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:05,958 590    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:05,958 590    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 2900(Integer)
+2019-11-21 22:17:05,959 591    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:17:05,959 591    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:05,960 592    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:05,960 592    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 3000(Integer)
+2019-11-21 22:17:05,961 593    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:17:05,962 594    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:05,962 594    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:05,962 594    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 3100(Integer)
+2019-11-21 22:17:05,963 595    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:17:05,964 596    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:05,964 596    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:05,964 596    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 3200(Integer)
+2019-11-21 22:17:05,966 598    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:17:05,977 609    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4b520ea8]
+2019-11-21 22:17:05,978 610    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1263668904 to pool.
+2019-11-21 22:17:35,500 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-21 22:17:35,592 92     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 22:17:35,592 92     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 22:17:35,592 92     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 22:17:35,592 92     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 22:17:35,720 220    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-21 22:17:35,926 426    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 2053996178.
+2019-11-21 22:17:35,928 428    [           main] DEBUG ation.selectAllWithDepartments  - ==>  Preparing: select * from locations 
+2019-11-21 22:17:35,960 460    [           main] DEBUG ation.selectAllWithDepartments  - ==> Parameters: 
+2019-11-21 22:17:36,035 535    [           main] DEBUG ation.selectAllWithDepartments  - <==      Total: 23
+2019-11-21 22:17:36,038 538    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:36,038 538    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:36,039 539    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 1000(Integer)
+2019-11-21 22:17:36,040 540    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:17:36,040 540    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:36,041 541    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:36,041 541    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 1100(Integer)
+2019-11-21 22:17:36,042 542    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:17:36,043 543    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:36,043 543    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:36,045 545    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 1200(Integer)
+2019-11-21 22:17:36,049 549    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:17:36,049 549    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:36,049 549    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:36,050 550    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 1300(Integer)
+2019-11-21 22:17:36,052 552    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:17:36,052 552    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:36,052 552    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:36,053 553    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 1400(Integer)
+2019-11-21 22:17:36,054 554    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 1
+2019-11-21 22:17:36,055 555    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:36,055 555    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:36,055 555    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 1500(Integer)
+2019-11-21 22:17:36,056 556    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 1
+2019-11-21 22:17:36,056 556    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:36,056 556    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:36,058 558    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 1600(Integer)
+2019-11-21 22:17:36,058 558    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:17:36,059 559    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:36,059 559    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:36,059 559    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 1700(Integer)
+2019-11-21 22:17:36,064 564    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 21
+2019-11-21 22:17:36,064 564    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:36,064 564    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:36,064 564    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 1800(Integer)
+2019-11-21 22:17:36,065 565    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 1
+2019-11-21 22:17:36,066 566    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:36,066 566    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:36,066 566    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 1900(Integer)
+2019-11-21 22:17:36,067 567    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:17:36,068 568    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:36,068 568    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:36,068 568    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 2000(Integer)
+2019-11-21 22:17:36,070 570    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:17:36,075 575    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:36,075 575    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:36,076 576    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 2100(Integer)
+2019-11-21 22:17:36,077 577    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:17:36,077 577    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:36,077 577    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:36,077 577    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 2200(Integer)
+2019-11-21 22:17:36,078 578    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:17:36,078 578    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:36,079 579    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:36,079 579    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 2300(Integer)
+2019-11-21 22:17:36,079 579    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:17:36,080 580    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:36,080 580    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:36,081 581    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 2400(Integer)
+2019-11-21 22:17:36,083 583    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 1
+2019-11-21 22:17:36,084 584    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:36,084 584    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:36,084 584    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 2500(Integer)
+2019-11-21 22:17:36,085 585    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 1
+2019-11-21 22:17:36,087 587    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:36,087 587    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:36,087 587    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 2600(Integer)
+2019-11-21 22:17:36,088 588    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:17:36,088 588    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:36,088 588    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:36,088 588    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 2700(Integer)
+2019-11-21 22:17:36,089 589    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 1
+2019-11-21 22:17:36,089 589    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:36,089 589    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:36,090 590    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 2800(Integer)
+2019-11-21 22:17:36,090 590    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:17:36,091 591    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:36,091 591    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:36,091 591    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 2900(Integer)
+2019-11-21 22:17:36,092 592    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:17:36,092 592    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:36,092 592    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:36,093 593    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 3000(Integer)
+2019-11-21 22:17:36,093 593    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:17:36,093 593    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:36,094 594    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:36,094 594    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 3100(Integer)
+2019-11-21 22:17:36,094 594    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:17:36,094 594    [           main] DEBUG o.dao.IDepartmentDaoAnnotation  - Cache Hit Ratio [com.baobao.dao.IDepartmentDaoAnnotation]: 0.0
+2019-11-21 22:17:36,094 594    [           main] DEBUG oAnnotation.selectByLocationId  - ==>  Preparing: select * from departments where location_id = ? 
+2019-11-21 22:17:36,095 595    [           main] DEBUG oAnnotation.selectByLocationId  - ==> Parameters: 3200(Integer)
+2019-11-21 22:17:36,095 595    [           main] DEBUG oAnnotation.selectByLocationId  - <==      Total: 0
+2019-11-21 22:17:36,106 606    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@7a6d7e92]
+2019-11-21 22:17:36,106 606    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 2053996178 to pool.
+2019-11-21 22:19:10,218 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-21 22:19:10,329 111    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 22:19:10,329 111    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 22:19:10,329 111    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 22:19:10,329 111    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-21 22:19:10,454 236    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-21 22:19:10,630 412    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 2053996178.
+2019-11-21 22:19:10,632 414    [           main] DEBUG ation.selectAllWithDepartments  - ==>  Preparing: select * from locations 
+2019-11-21 22:19:10,664 446    [           main] DEBUG ation.selectAllWithDepartments  - ==> Parameters: 
+2019-11-21 22:19:10,738 520    [           main] DEBUG ation.selectAllWithDepartments  - <==      Total: 23
+2019-11-21 22:19:10,739 521    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@7a6d7e92]
+2019-11-21 22:19:10,739 521    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 2053996178 to pool.
