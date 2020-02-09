@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.baobao.dao.IDepartmentDaoDynamicSql">
+    <!--<cache eviction="FIFO" flushInterval="6000" readOnly="true" size="" type=""/>-->
+    <!--配置表中字段和bean属性的映射关系 id:自定义配置，后面可使用；type：bean的全类名-->
+    <resultMap id="departmentMap" type="com.baobao.domain.Department">
+        <!--id:配置主键与bean属性对应关系；result:配置主键外其他表字段与bean属性对应关系-->
+        <id column="department_id" property="id"/>
+        <result column="department_name" property="name"/>
+        <result column="manager_id" property="managerId"/>
+        <result column="location_id" property="locationId"/>
+    </resultMap>
+
+    <select id="selectWithIf" resultMap="departmentMap">
+        select * from departments where
+        <!--利用if标签的test属性判断传入的参数值，根据参数值的情况拼接sql-->
+        <!--id不为空-->
+        <if test="id != null">
+            department_id = #{id}
+        </if>
+        <!--name不为空且不是空字符串-->
+        <if test="name != null and name != ''">
+            and department_name like #{name}
+        </if>
+        <!--managerId不为空-->
+        <if test="managerId != null">
+            and manager_id = #{managerId}
+        </if>
+    </select>
+
+    <select id="selectWithWhere" resultMap="departmentMap">
+        select * from departments
+        <!--使用where标签将条件包起来，可以去除多余的and-->
+        <where>
+            <!--利用if标签的test属性判断传入的参数值，根据参数值的情况拼接sql-->
+            <!--id不为空-->
+            <if test="id != null">
+                department_id = #{id}
+            </if>
+            <!--name不为空且不是空字符串-->
+            <if test="name != null and name != ''">
+                and department_name like #{name}
+            </if>
+            <!--managerId不为空-->
+            <if test="managerId != null">
+                and manager_id = #{managerId}
+            </if>
+        </where>
+    </select>
+    <!--List<Department> selectWithTrim(Department department);-->
+    <select id="selectWithTrim" resultMap="departmentMap">
+        select * from departments
+        <!--使用trim自定义字符串截取规则,trim标签体中是整个字符串拼串后的结果-->
+        <!--prefix:前缀,给拼串后的整个字符串加一个前缀
+	 	    prefixOverrides:前缀覆盖,去掉整个字符串前面多余的字符
+	 	    suffix:后缀,给拼串后的整个字符串加一个后缀
+	 	    suffixOverrides:后缀覆盖,去掉整个字符串后面多余的字符-->
+        <!--前缀加上where，去除多余的and后缀-->
+        <trim prefix="where" suffixOverrides="and">
+            <!--利用if标签的test属性判断传入的参数值，根据参数值的情况拼接sql-->
+            <!--id不为空-->
+            <if test="id != null">
+                department_id = #{id} and
+            </if>
+            <!--name不为空且不是空字符串-->
+            <if test="name != null and name != ''">
+                department_name like #{name} and
+            </if>
+            <!--managerId不为空-->
+            <if test="managerId != null">
+                manager_id = #{managerId}
+            </if>
+        </trim>
+    </select>
+
+    <!--List<Department> selectWithChoose(Department department);-->
+    <select id="selectWithChoose" resultMap="departmentMap">
+        select * from departments
+        <where>
+            <choose>
+                <!--id不为空就用id作为条件查询-->
+                <when test="id != null">
+                    department_id = #{id}
+                </when>
+                <!--如果id为空，name不为空或者空串就用name作为条件查询-->
+                <when test="name != null and name != ''">
+                    department_name = #{name}
+                </when>
+                <!--如果id和name都为空，则用managerId作为条件查询-->
+                <otherwise>
+                    manager_id = #{managerId}
+                </otherwise>
+            </choose>
+        </where>
+    </select>
+
+    <!--void updateDepartment(Department department);-->
+    <update id="updateDepartment">
+        <!--update departments
+        <set>
+            <if test="name != null and name != ''">
+                department_name = #{name},
+            </if>
+            <if test="managerId != null">
+                manager_id = #{managerId}
+            </if>
+        </set>
+        where department_id = #{id}-->
+        update departments
+        <trim prefix="set" suffixOverrides=",">
+            <if test="name != null and name != ''">
+                department_name = #{name},
+            </if>
+            <if test="managerId != null">
+                manager_id = #{managerId}
+            </if>
+        </trim>
+        where department_id = #{id}
+    </update>
+
+    <!--List<Department> selectWithForeach(@Param("ids") List<Integer> ids);-->
+    <select id="selectWithForeach" resultMap="departmentMap">
+        select * from departments where department_id in
+        <!--
+	 		collection：指定要遍历的集合的参数名称，list类型的参数如果不加@Param显式指定参数名，会特殊处理封装在map中，map的key就叫list
+	 		item：将当前遍历出的元素赋值给指定的变量
+	 		separator:每个元素之间的分隔符
+	 		open：遍历出所有结果拼接一个开始的字符
+	 		close:遍历出所有结果拼接一个结束的字符
+	 		index:索引。遍历list的时候是index就是索引，item就是当前值
+	 				    遍历map的时候index表示的就是map的key，item就是map的值
+
+	 		#{变量名}就能取出变量的值也就是当前遍历出的元素
+	 	  -->
+        <foreach collection="ids" item="id" open="(" close=")" separator=",">
+            #{id}
+        </foreach>
+    </select>
+
+    <!--void insertWithForeach(@Param("depts") List<Department> depts);-->
+    <insert id="insertWithForeach">
+        insert into departments (
+        <!--引用抽取的sql片段-->
+        <include refid="insertColumn"/>
+        ) values
+        <foreach collection="depts" item="dept" separator=",">
+            (#{dept.name},#{dept.managerId},#{dept.locationId})
+        </foreach>
+    </insert>
+
+    <!--抽取需要插入的字段-->
+    <sql id="insertColumn">
+        department_name,manager_id,location_id
+    </sql>
+
+</mapper>

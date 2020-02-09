@@ -35,8 +35,16 @@
         <result column="city" property="city"/>
         <result column="state_province" property="stateProvince"/>
         <result column="country_id" property="country"/>
+        <collection property="departments" ofType="com.baobao.domain.Department"
+                    select="com.baobao.dao.IDepartmentDao.selectById" column="department_id"
+                    fetchType="lazy">
+            <id column="department_id" property="id"/>
+            <result column="department_name" property="name"/>
+            <result column="manager_id" property="managerId"/>
+            <result column="location_id" property="locationId"/>
+        </collection>
     </resultMap>
-    <select id="selectById" parameterType="int" resultMap="locationMap">
+    <select id="selectById" resultMap="locationMap">
         select * from locations where location_id = #{id}
     </select>
 </mapper>

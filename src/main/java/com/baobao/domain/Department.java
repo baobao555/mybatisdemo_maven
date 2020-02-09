@@ -46,6 +46,8 @@ public class Department  implements Serializable{
         return "Department{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
+                ", managerId=" + managerId +
+                ", locationId=" + locationId +
                 ", location=" + location +
                 '}';
     }

@@ -3,14 +3,12 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-
 <!--配置mapper，即Dao接口的方法实现映射-->
 <!--namespace:Dao接口的全类名-->
 <mapper namespace="com.baobao.dao.IDepartmentDao">
     <!-- 开启二级缓存的支持 -->
     <!-- 当我们在使用二级缓存时，所缓存的类一定要实现java.io.Serializable接口，这种就可以使用序列化方式来保存对象 -->
-    <cache/>
-
+    <!--<cache/>-->
 
     <!--配置表中字段和bean属性的映射关系 id:自定义配置，后面可使用；type：bean的全类名-->
     <resultMap id="departmentMap" type="com.baobao.domain.Department">
@@ -33,7 +31,15 @@
         select * from departments where department_id = #{id}
     </select>
 
-    <insert id="insertOne" parameterType="com.baobao.domain.Department">
+    <select id="selectByNameAndMangerid" resultMap="departmentMap">
+        select * from departments where department_name = #{deptName} and manager_id = #{managerId}
+    </select>
+
+    <!--获取自增主键方式：
+    useGeneratedKeys="true" 打开获取自增主键功能
+    keyProperty="id" 指定自增的主键赋值给bean的哪个属性
+    -->
+    <insert id="insertOne" useGeneratedKeys="true" keyProperty="id">
         insert into departments values (#{id},#{name},#{managerId},#{locationId})
     </insert>
 
@@ -55,23 +61,55 @@
     </select>
 
     <!--多对一查询-->
-    <!--配置表中字段和bean属性的映射关系 id:自定义配置，后面可使用；type：bean的全类名-->
+    <!--配置表中字段和bean属性的映射关系
+    id:自定义配置，后面可使用；
+    type：bean的全类名-->
     <resultMap id="departmentLocationMap" type="com.baobao.domain.Department">
+        <!--id:配置主键与bean属性对应关系；
+        result:配置主键外其他表字段与bean属性对应关系-->
+        <id column="department_id" property="id"/>
+        <result column="department_name" property="name"/>
+        <result column="manager_id" property="managerId"/>
+        <result column="location_id" property="locationId"/>
+        <!--discriminator鉴别器，可以根据某列查询出来的值，改变封装行为
+        column：需要进行判断的列
+        javaType：该列在bean中对应的类型-->
+        <discriminator javaType="int" column="manager_id">
+            <!--如果查出的department的manager_id=200-->
+            <case value="200">
+                <!--association:配置查询结果表中字段与bean中嵌套bean的属性对应关系
+                property:嵌套bean在原始bean中的属性名称
+                javaType:嵌套bean的全类名-->
+                <association property="location" javaType="com.baobao.domain.Location">
+                    <id column="location_id" property="id"/>
+                    <result column="street_address" property="streetAddress"/>
+                    <result column="postal_code" property="postalCode"/>
+                    <result column="city" property="city"/>
+                    <result column="state_province" property="stateProvince"/>
+                    <result column="country_id" property="country"/>
+                </association>
+            </case>
+            <!--如果查出的department的manager_id=201-->
+            <case value="201">
+                <!--将查出的location_id封装到Department的managerId-->
+                <result column="location_id" property="managerId"/>
+            </case>
+        </discriminator>
+    </resultMap>
+
+    <resultMap id="departmentLocationMap1" type="com.baobao.domain.Department">
         <!--id:配置主键与bean属性对应关系；result:配置主键外其他表字段与bean属性对应关系-->
         <id column="department_id" property="id"/>
         <result column="department_name" property="name"/>
         <result column="manager_id" property="managerId"/>
         <result column="location_id" property="locationId"/>
-        <!--association:配置查询结果表中字段与bean中嵌套bean的属性对应关系
-        property:嵌套bean在原始bean中的属性名称  javaType:嵌套bean的全类名-->
-        <association property="location" javaType="com.baobao.domain.Location">
-            <id column="location_id" property="id"/>
-            <result column="street_address" property="streetAddress"/>
-            <result column="postal_code" property="postalCode"/>
-            <result column="city" property="city"/>
-            <result column="state_province" property="stateProvince"/>
-            <result column="country_id" property="country"/>
-        </association>
+        <!--采用级联属性的方式，用.取Location的属性-->
+        <result column="location_id" property="location.id"/>
+        <result column="street_address" property="location.streetAddress"/>
+        <result column="postal_code" property="location.postalCode"/>
+        <result column="city" property="location.city"/>
+        <result column="state_province" property="location.stateProvince"/>
+        <result column="country_id" property="location.country"/>
     </resultMap>
 
     <select id="selectAllWithLocation" resultMap="departmentLocationMap">
@@ -84,11 +122,13 @@
         <result column="department_name" property="name"/>
         <result column="manager_id" property="managerId"/>
         <result column="location_id" property="locationId"/>
-        <!--select： 填写我们要调用的 select 映射的 id column ： 填写我们要传递给 select 映射的参数-->
+        <!--select： 填写我们要调用的 select 映射的 id
+            column ： 填写我们要传递给 select 映射的参数-->
         <association property="location" javaType="com.baobao.domain.Location"
             select="com.baobao.dao.ILocationDao.selectById" column="location_id">
         </association>
     </resultMap>
+
     <select id="selectAllWithLocationLazy" resultMap="departmentLocationMapLazy">
         select * from departments
     </select>

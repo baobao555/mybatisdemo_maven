@@ -2,6 +2,7 @@ package com.baobao.dao;
 
 import com.baobao.domain.Department;
 import com.baobao.domain.Location;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -13,6 +14,8 @@ import java.util.List;
 public interface IDepartmentDao {
     //查询所有
     List<Department> selectAll();
+    //根据LocationId查询
+    List<Department> selectByLocationId(int locationId);
 
     //根据Id查询
     Department selectById(int id);
@@ -31,6 +34,9 @@ public interface IDepartmentDao {
 
     //聚合函数查询总记录数
     int selectTotalCount();
+
+    //根据名称和manager_id查询部门
+    Department selectByNameAndMangerid(@Param("deptName") String name, @Param("managerId") Integer managerId);
 
     //查询所有部门并且带有部门所在地信息
     List<Department> selectAllWithLocation();

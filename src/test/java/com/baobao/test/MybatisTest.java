@@ -4,6 +4,8 @@ import com.baobao.dao.IDepartmentDao;
 import com.baobao.dao.ILocationDao;
 import com.baobao.domain.Department;
 import com.baobao.domain.Location;
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -61,6 +63,30 @@ public class MybatisTest {
     }
 
     @Test
+    public void testPageHelper(){
+        //查询方法前调用PageHelper.startPage分页：每页5条数据，返回第2页的数据
+        PageHelper.startPage(2, 5);
+        //查询所有department
+        List<Department> departments = departmentDao.selectAll();
+        //将查询结果包装成pageInfo，里面包含分页的所有详细信息。第二个参数是需要连续显示的页码
+        PageInfo<Department> pageInfo = new PageInfo<>(departments,5);
+        //打印分页信息
+        System.out.println("当前页码："+pageInfo.getPageNum());
+        System.out.println("总记录数："+pageInfo.getTotal());
+        System.out.println("每页的记录数："+pageInfo.getPageSize());
+        System.out.println("总页码："+pageInfo.getPages());
+        System.out.println("是否第一页："+pageInfo.isIsFirstPage());
+        System.out.println("连续显示的页码：");
+        int[] nums = pageInfo.getNavigatepageNums();
+        for (int i = 0; i < nums.length; i++) {
+            System.out.println(nums[i]);
+        }
+        for (Department department : departments){
+            System.out.println(department);
+        }
+    }
+
+    @Test
     public void testSelectById(){
         Department department = departmentDao.selectById(120);
         System.out.println(department);
@@ -69,7 +95,10 @@ public class MybatisTest {
     @Test
     public void testInsertOne(){
         //主键重复、不满足外键约束等都会导致插入失败
-        departmentDao.insertOne(new Department(301, "bao", 205, 1700));
+        Department department = new Department("bao", 205, 1700);
+        departmentDao.insertOne(department);
+        //自增的主键会保存到id属性中
+        System.out.println(department.getId());
     }
 
     @Test

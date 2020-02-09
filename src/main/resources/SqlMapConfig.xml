@@ -11,6 +11,19 @@
         <!-- 开启二级缓存的支持 默认就是开启，可以不配置-->
         <setting name="cacheEnabled" value="true"/>
     </settings>
+
+    <plugins>
+        <plugin interceptor="com.baobao.interceptor.MyInterceptor1">
+            <!--给插件设置属性-->
+            <property name="user" value="baobao"/>
+            <property name="password" value="123"/>
+        </plugin>
+        <plugin interceptor="com.baobao.interceptor.MyInterceptor2"/>
+<!--
+        <plugin interceptor="com.github.pagehelper.PageInterceptor"/>
+-->
+    </plugins>
+
     <!--配置数据源环境 -->
     <environments default="mysql">
         <environment id="mysql">
@@ -24,11 +37,13 @@
         </environment>
     </environments>
 
+
     <!--告知mybatis Dao映射的位置-->
     <mappers>
         <!--配置xml形式映射的Dao位置-->
         <mapper resource="com/baobao/dao/IDepartmentDao.xml"/>
         <mapper resource="com/baobao/dao/ILocationDao.xml"/>
+        <mapper resource="com/baobao/dao/IDepartmentDaoDynamicSql.xml"/>
 
         <!--配置注解形式映射的Dao位置-->
         <mapper class="com.baobao.dao.IDepartmentDaoAnnotation"/>
